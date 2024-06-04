@@ -17,7 +17,9 @@ module.exports = {
   plugins: [
     '~/plugins/intercom'
   ],
-  intercom: {
-    appId: process.env.INTERCOM_ID || null
+  publicRuntimeConfig: {
+    intercom: {
+      appId: process.env.INTERCOM_ID || null
+    }
   }
 }

@@ -2,7 +2,7 @@ const { setup, loadConfig, get } = require('@nuxtjs/module-test-utils')
 
 let nuxt
 const nuxtConfig = loadConfig(__dirname, '../../example')
-nuxtConfig.intercom.appId = '3qmk5gyg'
+nuxtConfig.publicRuntimeConfig.intercom.appId = '3qmk5gyg'
 
 describe('When module is loaded with default settings', () => {
   beforeAll(async () => {

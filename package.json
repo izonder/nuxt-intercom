@@ -1,8 +1,8 @@
 {
-  "name": "@hexdigital/nuxt-intercom",
+  "name": "@izonder/nuxt-intercom",
   "version": "0.0.10",
   "description": "Intercom Module for Nuxt.js",
-  "repository": "hex-digital/nuxt-intercom",
+  "repository": "izonder/nuxt-intercom",
   "license": "MIT",
   "contributors": [
     {
