@@ -14,18 +14,18 @@
 
 ## Setup
 
-1. Add `@hexdigital/nuxt-intercom` dependency to your project
+1. Add `@izonder/nuxt-intercom` dependency to your project
 
 ```bash
-yarn add "git+https://github.com/izonder/nuxt-intercom.git#v0.0.11" # or npm install "git+https://github.com/izonder/nuxt-intercom.git#v0.0.11"
+yarn add @izonder/nuxt-intercom # or npm install @izonder/nuxt-intercom
 ```
 
-Add `@hexdigital/nuxt-intercom` to the buildModules section of nuxt.config.js
+Add `@izonder/nuxt-intercom` to the buildModules section of nuxt.config.js
 
 ```js
 {
   buildModules: [
-    '@hexdigital/nuxt-intercom',
+    '@izonder/nuxt-intercom',
   ], 
   publicRuntimeConfig: {
     intercom: {
