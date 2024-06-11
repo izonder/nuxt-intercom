@@ -1,6 +1,6 @@
 {
   "name": "@izonder/nuxt-intercom",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Intercom Module for Nuxt.js",
   "repository": "izonder/nuxt-intercom",
   "license": "MIT",
